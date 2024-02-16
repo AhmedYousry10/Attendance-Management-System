@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <attendanceMangmentSystem>
-
 	<users>
 	
 		<admin>
 			<id>1</id>
+			<name>mayar</name>
 			<email>mayar@gmail.com</email>
 			<password>Mayar@127</password>
 		</admin>
@@ -13,18 +13,21 @@
 		
 			<teacher class="math">
 				<id>2</id>
+				<name>mohsen</name>
 				<email>teacher1@gmail.com</email>
 				<password>teacher1@pass</password>
 			</teacher>
 			
 			<teacher class="english">
 				<id>3</id>
+				<name>saeed</name>
 				<email>teacher2@gmail.com</email>
 				<password>teacher2@pass</password>
 			</teacher>
 			
 			<teacher class="science">
 				<id>4</id>
+				<name>selmy</name>
 				<email>teacher3@gmail.com</email>
 				<password>teacher3@pass</password>
 			</teacher>
@@ -35,18 +38,21 @@
 		
 			<student classId="1">
 				<id>5</id>
+				<name>ahmed</name>
 				<email>ahmed@yahoo.com</email>
 				<password>Ahmed@1234</password>
 			</student>
 			
 			<student classId="1">
 				<id>6</id>
+				<name>mayar</name>
 				<email>mayar@yahoo.com</email>
 				<password>mayar@1234</password>
 			</student>
-			
+			 
 			<student classId="1">
 				<id>7</id>
+				<name>sherif</name>
 				<email>sherif@yahoo.com</email>
 				<password>sherif@1234</password>
 			</student>
@@ -56,16 +62,21 @@
 	</users>
 	
 	<attendaceRecords>
-			<attendaceRecord id="#2">
-				<studentId>7</studentId>
-				<date>16/2/2024</date>
+	
+		<attendaceRecord>
+			<date>16/2/2024</date>
+			<classId>1</classId>
+			<student id="7">
 				<status>absent</status>
-			</attendaceRecord>
-			<attendaceRecord id="#3">
-				<studentId>5</studentId>
-				<date>16/2/2024</date>
+			</student>
+			<student id="5">
 				<status>present</status>
-			</attendaceRecord>
-		</attendaceRecords>
+			</student>
+			<student id="6">
+				<status>present</status>
+			</student>
+		</attendaceRecord>
 		
+	</attendaceRecords>
+	
 </attendanceMangmentSystem>
