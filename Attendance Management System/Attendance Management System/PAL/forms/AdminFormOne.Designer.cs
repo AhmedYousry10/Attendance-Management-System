@@ -37,7 +37,7 @@
             BackColor = Color.White;
             ClientSize = new Size(800, 450);
             Name = "AdminFormOne";
-            Text = "AdminFormOne";
+            Text = "Attendance Management System";
             ResumeLayout(false);
         }
 
