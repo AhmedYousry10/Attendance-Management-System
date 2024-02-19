@@ -62,31 +62,39 @@ namespace Attendance_Management_system
         private void buttonDashboard_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonDashboard);
+            userControlDashboard1.Count();
+            userControlDashboard1.Visible = true;
         }
 
         private void buttonAttendance_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonAttendance);
+            userControlDashboard1.Visible = false;
         }
 
         private void buttonAddClass_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonAddClass);
+            userControlDashboard1.Visible = false;
         }
 
         private void buttonAddStudent_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonAddStudent);
+            userControlDashboard1.Visible = false;
+            userControlDashboard1.Visible = false;
         }
 
         private void buttonReport_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonReport);
+            userControlDashboard1.Visible = false;
         }
 
         private void buttonRegister_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonRegister);
+            userControlDashboard1.Visible = false;
         }
 
         private void pictureBoxExpand_Click(object sender, EventArgs e)

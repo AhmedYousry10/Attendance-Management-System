@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="forms\FormMain.cs">
+    <Compile Update="PAL\forms\FormMain.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PAL\User Control\UserControlDashboard.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>
