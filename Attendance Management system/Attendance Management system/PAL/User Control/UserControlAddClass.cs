@@ -17,9 +17,9 @@ namespace Attendance_Management_System.Forms
     {
         private XDocument classesDocument;
 
-        private string classesFilePath = @"D:\00 - ITI Courses\XML Project\DR Project\Attendance_Management_system\Attendance Management System\Data\classes.xml";
-        private string usersFilePath = @"D:\00 - ITI Courses\XML Project\DR Project\Attendance_Management_system\Attendance Management System\Data\users.xml";
-        private string schemaFilePath = @"C:\Iti\C#XML\Attendance_Management_system\Attendance Management System\Data\classes_schema.xsd";
+        private string classesFilePath = @"..\..\..\Data\classes.xml";
+        private string usersFilePath = @"..\..\..\Data\users.xml";
+        private string schemaFilePath = @"..\..\..\Data\classes_schema.xsd";
         public UserControlAddClass()
         {
             InitializeComponent();

@@ -17,9 +17,9 @@ namespace Attendance_Management_System.Forms
     public partial class UserControlAddTeacher : UserControl
     {
         private XDocument teachersDocument;
-        private string teachersFilePath = @"D:\00 - ITI Courses\XML Project\DR Project\Attendance_Management_system\Attendance Management System\Data\users.xml";
-        private string schemaFilePath = @"D:\00 - ITI Courses\XML Project\DR Project\Attendance_Management_system\Attendance Management System\Data\users_schema.xsd";
-        private string classesFilePath = @"D:\00 - ITI Courses\XML Project\DR Project\Attendance_Management_system\Attendance Management System\Data\classes.xml";
+        private string teachersFilePath = @"..\..\..\Data\users.xml";
+        private string schemaFilePath = @"..\..\..\Data\users_schema.xsd";
+        private string classesFilePath = @"..\..\..\Data\classes.xml";
 
 
 
