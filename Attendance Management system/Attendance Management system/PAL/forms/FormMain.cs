@@ -63,21 +63,25 @@ namespace Attendance_Management_system
         private void buttonDashboard_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonDashboard);
+            userControlAddStudent1.Visible = false;
+            userControlAddTeacher1.Visible = false;
             userControlAddClass1.Visible = false;
             userControlDashboard1.Count();
             userControlDashboard1.Visible = true;
         }
 
-        private void buttonAttendance_Click(object sender, EventArgs e)
+      /*private void buttonAttendance_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonAttendance);
             userControlAddClass1.Visible = false;
             userControlDashboard1.Visible = false;
-        }
+        }*/
 
         private void buttonAddClass_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonAddClass);
+            userControlAddStudent1.Visible = false;
+            userControlAddTeacher1.Visible = false;
             userControlAddClass1.Visible = true;
             userControlDashboard1.Visible = false;
         }
@@ -85,24 +89,29 @@ namespace Attendance_Management_system
         private void buttonAddStudent_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonAddStudent);
+            userControlAddStudent1.Visible = true;
+            userControlAddTeacher1.Visible = false;
             userControlAddClass1.Visible = false;
             userControlDashboard1.Visible = false;
+        }
+        private void buttonAddTeacher_Click(object sender, EventArgs e)
+        {
+            MoveSidePanel(buttonAddTeacher);
+            userControlAddStudent1.Visible = false;
+            userControlAddTeacher1.Visible = true;
+            userControlAddClass1.Visible = false;
             userControlDashboard1.Visible = false;
         }
 
         private void buttonReport_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonReport);
+            userControlAddStudent1.Visible = false;
+            userControlAddTeacher1.Visible = false;
             userControlAddClass1.Visible = false;
             userControlDashboard1.Visible = false;
         }
 
-        private void buttonRegister_Click(object sender, EventArgs e)
-        {
-            MoveSidePanel(buttonRegister);
-            userControlAddClass1.Visible = false;
-            userControlDashboard1.Visible = false;
-        }
 
         private void pictureBoxExpand_Click(object sender, EventArgs e)
         {

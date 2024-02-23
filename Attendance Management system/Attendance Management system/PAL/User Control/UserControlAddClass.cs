@@ -20,7 +20,7 @@ namespace Attendance_Management_System.Forms
         private string classesFilePath = @"..\..\..\Data\classes.xml";
         private string usersFilePath = @"..\..\..\Data\users.xml";
         private string schemaFilePath = @"..\..\..\Data\classes_schema.xsd";
-        public UserControlAddClass()
+        public UserControlAddClass() 
         {
             InitializeComponent();
             LoadClassesData();

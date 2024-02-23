@@ -31,11 +31,10 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             panel1 = new Panel();
-            buttonRegister = new Button();
             buttonReport = new Button();
+            buttonAddTeacher = new Button();
             buttonAddStudent = new Button();
             buttonAddClass = new Button();
-            buttonAttendance = new Button();
             buttonDashboard = new Button();
             panel4 = new Panel();
             panelSlide = new Panel();
@@ -58,7 +57,8 @@
             label4 = new Label();
             timerDateAndTime = new System.Windows.Forms.Timer(components);
             userControlDashboard1 = new PAL.User_Control.UserControlDashboard();
-            userControlAddClass1 = new Attendance_Management_System.Forms.UserControlAddClass();
+            userControlAddStudent1 = new Attendance_Management_System.Forms.UserControlAddStudent();
+            userControlAddTeacher1 = new Attendance_Management_System.Forms.UserControlAddTeacher();
             panel1.SuspendLayout();
             panel4.SuspendLayout();
             panel2.SuspendLayout();
@@ -73,11 +73,10 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(67, 3, 125);
-            panel1.Controls.Add(buttonRegister);
             panel1.Controls.Add(buttonReport);
+            panel1.Controls.Add(buttonAddTeacher);
             panel1.Controls.Add(buttonAddStudent);
             panel1.Controls.Add(buttonAddClass);
-            panel1.Controls.Add(buttonAttendance);
             panel1.Controls.Add(buttonDashboard);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(panel2);
@@ -86,20 +85,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(258, 681);
             panel1.TabIndex = 0;
-            // 
-            // buttonRegister
-            // 
-            buttonRegister.Dock = DockStyle.Top;
-            buttonRegister.FlatAppearance.BorderSize = 0;
-            buttonRegister.FlatStyle = FlatStyle.Flat;
-            buttonRegister.ForeColor = Color.White;
-            buttonRegister.Location = new Point(8, 415);
-            buttonRegister.Name = "buttonRegister";
-            buttonRegister.Size = new Size(250, 47);
-            buttonRegister.TabIndex = 0;
-            buttonRegister.Text = "Register";
-            buttonRegister.UseVisualStyleBackColor = true;
-            buttonRegister.Click += buttonRegister_Click;
             // 
             // buttonReport
             // 
@@ -115,13 +100,27 @@
             buttonReport.UseVisualStyleBackColor = true;
             buttonReport.Click += buttonReport_Click;
             // 
+            // buttonAddTeacher
+            // 
+            buttonAddTeacher.Dock = DockStyle.Top;
+            buttonAddTeacher.FlatAppearance.BorderSize = 0;
+            buttonAddTeacher.FlatStyle = FlatStyle.Flat;
+            buttonAddTeacher.ForeColor = Color.White;
+            buttonAddTeacher.Location = new Point(8, 321);
+            buttonAddTeacher.Name = "buttonAddTeacher";
+            buttonAddTeacher.Size = new Size(250, 47);
+            buttonAddTeacher.TabIndex = 0;
+            buttonAddTeacher.Text = "Add Teacher";
+            buttonAddTeacher.UseVisualStyleBackColor = true;
+            buttonAddTeacher.Click += buttonAddTeacher_Click;
+            // 
             // buttonAddStudent
             // 
             buttonAddStudent.Dock = DockStyle.Top;
             buttonAddStudent.FlatAppearance.BorderSize = 0;
             buttonAddStudent.FlatStyle = FlatStyle.Flat;
             buttonAddStudent.ForeColor = Color.White;
-            buttonAddStudent.Location = new Point(8, 321);
+            buttonAddStudent.Location = new Point(8, 274);
             buttonAddStudent.Name = "buttonAddStudent";
             buttonAddStudent.Size = new Size(250, 47);
             buttonAddStudent.TabIndex = 0;
@@ -135,27 +134,13 @@
             buttonAddClass.FlatAppearance.BorderSize = 0;
             buttonAddClass.FlatStyle = FlatStyle.Flat;
             buttonAddClass.ForeColor = Color.White;
-            buttonAddClass.Location = new Point(8, 274);
+            buttonAddClass.Location = new Point(8, 227);
             buttonAddClass.Name = "buttonAddClass";
             buttonAddClass.Size = new Size(250, 47);
             buttonAddClass.TabIndex = 0;
             buttonAddClass.Text = "Add Class";
             buttonAddClass.UseVisualStyleBackColor = true;
             buttonAddClass.Click += buttonAddClass_Click;
-            // 
-            // buttonAttendance
-            // 
-            buttonAttendance.Dock = DockStyle.Top;
-            buttonAttendance.FlatAppearance.BorderSize = 0;
-            buttonAttendance.FlatStyle = FlatStyle.Flat;
-            buttonAttendance.ForeColor = Color.White;
-            buttonAttendance.Location = new Point(8, 227);
-            buttonAttendance.Name = "buttonAttendance";
-            buttonAttendance.Size = new Size(250, 47);
-            buttonAttendance.TabIndex = 0;
-            buttonAttendance.Text = "Attendance";
-            buttonAttendance.UseVisualStyleBackColor = true;
-            buttonAttendance.Click += buttonAttendance_Click;
             // 
             // buttonDashboard
             // 
@@ -396,23 +381,29 @@
             // userControlDashboard1
             // 
             userControlDashboard1.BackColor = Color.White;
-            userControlDashboard1.Dock = DockStyle.Fill;
             userControlDashboard1.Font = new Font("Century Gothic", 9.75F);
-            userControlDashboard1.Location = new Point(0, 0);
+            userControlDashboard1.Location = new Point(254, 161);
             userControlDashboard1.Margin = new Padding(4);
             userControlDashboard1.Name = "userControlDashboard1";
-            userControlDashboard1.Size = new Size(1184, 681);
+            userControlDashboard1.Size = new Size(930, 520);
             userControlDashboard1.TabIndex = 0;
             // 
-            // userControlAddClass1
+            // userControlAddStudent1
             // 
-            userControlAddClass1.Dock = DockStyle.Fill;
-            userControlAddClass1.Location = new Point(258, 165);
-            userControlAddClass1.Margin = new Padding(4);
-            userControlAddClass1.Name = "userControlAddClass1";
-            userControlAddClass1.Size = new Size(926, 516);
-            userControlAddClass1.TabIndex = 0;
-            userControlAddClass1.Visible = false;
+            userControlAddStudent1.BackColor = Color.White;
+            userControlAddStudent1.Location = new Point(69, 58);
+            userControlAddStudent1.Margin = new Padding(4, 3, 4, 3);
+            userControlAddStudent1.Name = "userControlAddStudent1";
+            userControlAddStudent1.Size = new Size(1184, 681);
+            userControlAddStudent1.TabIndex = 0;
+            // 
+            // userControlAddTeacher1
+            // 
+            userControlAddTeacher1.Location = new Point(166, -17);
+            userControlAddTeacher1.Margin = new Padding(4, 3, 4, 3);
+            userControlAddTeacher1.Name = "userControlAddTeacher1";
+            userControlAddTeacher1.Size = new Size(1051, 756);
+            userControlAddTeacher1.TabIndex = 0;
             // 
             // FormMain
             // 
@@ -420,10 +411,11 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1184, 681);
-            Controls.Add(userControlAddClass1);
             Controls.Add(panelBack);
             Controls.Add(panel1);
             Controls.Add(userControlDashboard1);
+            Controls.Add(userControlAddStudent1);
+            Controls.Add(userControlAddTeacher1);
             Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             Margin = new Padding(4);
             Name = "FormMain";
@@ -469,12 +461,13 @@
         private Panel panelSlide;
         private Button buttonAddStudent;
         private Button buttonAddClass;
-        private Button buttonAttendance;
         private Button buttonDashboard;
-        private Button buttonRegister;
         private Button buttonReport;
+        private Button buttonAddTeacher;
         private System.Windows.Forms.Timer timerDateAndTime;
         private PAL.User_Control.UserControlDashboard userControlDashboard1;
         private Attendance_Management_System.Forms.UserControlAddClass userControlAddClass1;
+        private Attendance_Management_System.Forms.UserControlAddStudent userControlAddStudent1;
+        private Attendance_Management_System.Forms.UserControlAddTeacher userControlAddTeacher1;
     }
 }

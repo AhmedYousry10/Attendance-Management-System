@@ -30,4 +30,9 @@
     <Name>Databases</Name>
     <Teacher>Sarah Johnson</Teacher>
   </Class>
+  <Class>
+    <ID>10</ID>
+    <Name>ITI Mansoura</Name>
+    <Teacher>Smith</Teacher>
+  </Class>
 </Classes>

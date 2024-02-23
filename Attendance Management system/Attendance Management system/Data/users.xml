@@ -14,6 +14,7 @@
     <Class>English</Class>
     <Class>Science</Class>
     <Class>Software</Class>
+    <Class>ITI Mansoura</Class>
   </Teacher>
   <Teacher>
     <Name>Sarah Johnson</Name>
@@ -78,5 +79,11 @@
     <Email>Maxon@gmail.com</Email>
     <Password>12083Klass</Password>
     <Class>Maths</Class>
+  </Teacher>
+  <Teacher>
+    <Name>Ahmed Helal</Name>
+    <ID>10</ID>
+    <Email>ahmed@gmail.com</Email>
+    <Password>123456</Password>
   </Teacher>
 </Users>

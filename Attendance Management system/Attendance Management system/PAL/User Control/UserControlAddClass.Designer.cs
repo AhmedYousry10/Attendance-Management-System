@@ -64,7 +64,7 @@
             tabControlAddClass.Location = new Point(0, 0);
             tabControlAddClass.Name = "tabControlAddClass";
             tabControlAddClass.SelectedIndex = 0;
-            tabControlAddClass.Size = new Size(824, 376);
+            tabControlAddClass.Size = new Size(882, 376);
             tabControlAddClass.TabIndex = 0;
             tabControlAddClass.Selected += tabControlAddClass_Selected;
             // 
@@ -82,7 +82,7 @@
             tabPageAddClass.Margin = new Padding(3, 2, 3, 2);
             tabPageAddClass.Name = "tabPageAddClass";
             tabPageAddClass.Padding = new Padding(3, 2, 3, 2);
-            tabPageAddClass.Size = new Size(816, 346);
+            tabPageAddClass.Size = new Size(874, 346);
             tabPageAddClass.TabIndex = 0;
             tabPageAddClass.Text = "Add Class";
             tabPageAddClass.UseVisualStyleBackColor = true;
@@ -185,7 +185,7 @@
             tabPageUp.Margin = new Padding(3, 2, 3, 2);
             tabPageUp.Name = "tabPageUp";
             tabPageUp.Padding = new Padding(3, 2, 3, 2);
-            tabPageUp.Size = new Size(816, 346);
+            tabPageUp.Size = new Size(817, 346);
             tabPageUp.TabIndex = 1;
             tabPageUp.Text = "Update Class";
             tabPageUp.UseVisualStyleBackColor = true;
@@ -309,7 +309,7 @@
             Controls.Add(tabControlAddClass);
             Margin = new Padding(3, 2, 3, 2);
             Name = "UserControlAddClass";
-            Size = new Size(824, 376);
+            Size = new Size(882, 376);
             Load += UserControlAddClass_Load;
             tabControlAddClass.ResumeLayout(false);
             tabPageAddClass.ResumeLayout(false);
