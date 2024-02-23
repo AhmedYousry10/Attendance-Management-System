@@ -21,7 +21,7 @@ namespace Attendance_Management_system
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-          /*  panelExpand.Hide();*/
+            /*  panelExpand.Hide();*/
             panelExpand.Visible = false;
             /*            labelUsername.Text = Username;
                         labelRole.Text = Role;
@@ -70,12 +70,12 @@ namespace Attendance_Management_system
             userControlDashboard1.Visible = true;
         }
 
-      /*private void buttonAttendance_Click(object sender, EventArgs e)
-        {
-            MoveSidePanel(buttonAttendance);
-            userControlAddClass1.Visible = false;
-            userControlDashboard1.Visible = false;
-        }*/
+        /*private void buttonAttendance_Click(object sender, EventArgs e)
+          {
+              MoveSidePanel(buttonAttendance);
+              userControlAddClass1.Visible = false;
+              userControlDashboard1.Visible = false;
+          }*/
 
         private void buttonAddClass_Click(object sender, EventArgs e)
         {
@@ -125,5 +125,9 @@ namespace Attendance_Management_system
             }
         }
 
+        private void userControlAddTeacher1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -57,6 +57,8 @@
             label4 = new Label();
             timerDateAndTime = new System.Windows.Forms.Timer(components);
             userControlDashboard1 = new PAL.User_Control.UserControlDashboard();
+            userControlAddClass1 = new Attendance_Management_System.Forms.UserControlAddClass();
+            userControlAddClass2 = new Attendance_Management_System.Forms.UserControlAddClass();
             userControlAddStudent1 = new Attendance_Management_System.Forms.UserControlAddStudent();
             userControlAddTeacher1 = new Attendance_Management_System.Forms.UserControlAddTeacher();
             panel1.SuspendLayout();
@@ -239,6 +241,7 @@
             panelExpand.Name = "panelExpand";
             panelExpand.Size = new Size(200, 107);
             panelExpand.TabIndex = 0;
+            panelExpand.Visible = false;
             // 
             // buttonLogOut
             // 
@@ -388,22 +391,43 @@
             userControlDashboard1.Size = new Size(930, 520);
             userControlDashboard1.TabIndex = 0;
             // 
+            // userControlAddClass1
+            // 
+            userControlAddClass1.Location = new Point(262, 169);
+            userControlAddClass1.Margin = new Padding(3, 2, 3, 2);
+            userControlAddClass1.Name = "userControlAddClass1";
+            userControlAddClass1.Size = new Size(922, 512);
+            userControlAddClass1.TabIndex = 0;
+            userControlAddClass1.Visible = false;
+            // 
+            // userControlAddClass2
+            // 
+            userControlAddClass2.Location = new Point(258, 165);
+            userControlAddClass2.Margin = new Padding(3, 2, 3, 2);
+            userControlAddClass2.Name = "userControlAddClass2";
+            userControlAddClass2.Size = new Size(926, 516);
+            userControlAddClass2.TabIndex = 0;
+            userControlAddClass2.Visible = false;
+            // 
             // userControlAddStudent1
             // 
             userControlAddStudent1.BackColor = Color.White;
-            userControlAddStudent1.Location = new Point(69, 58);
-            userControlAddStudent1.Margin = new Padding(4, 3, 4, 3);
+            userControlAddStudent1.Location = new Point(128, 96);
+            userControlAddStudent1.Margin = new Padding(3, 2, 3, 2);
             userControlAddStudent1.Name = "userControlAddStudent1";
-            userControlAddStudent1.Size = new Size(1184, 681);
+            userControlAddStudent1.Size = new Size(1056, 585);
             userControlAddStudent1.TabIndex = 0;
+            userControlAddStudent1.Visible = false;
             // 
             // userControlAddTeacher1
             // 
-            userControlAddTeacher1.Location = new Point(166, -17);
-            userControlAddTeacher1.Margin = new Padding(4, 3, 4, 3);
+            userControlAddTeacher1.Location = new Point(152, 11);
+            userControlAddTeacher1.Margin = new Padding(3, 2, 3, 2);
             userControlAddTeacher1.Name = "userControlAddTeacher1";
-            userControlAddTeacher1.Size = new Size(1051, 756);
+            userControlAddTeacher1.Size = new Size(1072, 703);
             userControlAddTeacher1.TabIndex = 0;
+            userControlAddTeacher1.Visible = false;
+            userControlAddTeacher1.Load += userControlAddTeacher1_Load;
             // 
             // FormMain
             // 
@@ -413,9 +437,11 @@
             ClientSize = new Size(1184, 681);
             Controls.Add(panelBack);
             Controls.Add(panel1);
+            Controls.Add(userControlAddTeacher1);
+            Controls.Add(userControlAddClass2);
+            Controls.Add(userControlAddClass1);
             Controls.Add(userControlDashboard1);
             Controls.Add(userControlAddStudent1);
-            Controls.Add(userControlAddTeacher1);
             Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             Margin = new Padding(4);
             Name = "FormMain";
@@ -465,9 +491,10 @@
         private Button buttonReport;
         private Button buttonAddTeacher;
         private System.Windows.Forms.Timer timerDateAndTime;
-        private PAL.User_Control.UserControlDashboard userControlDashboard1;
         private Attendance_Management_System.Forms.UserControlAddClass userControlAddClass1;
         private Attendance_Management_System.Forms.UserControlAddStudent userControlAddStudent1;
         private Attendance_Management_System.Forms.UserControlAddTeacher userControlAddTeacher1;
+        private PAL.User_Control.UserControlDashboard userControlDashboard1;
+        private Attendance_Management_System.Forms.UserControlAddClass userControlAddClass2;
     }
 }

@@ -239,7 +239,7 @@
             tabPageUpdate.Margin = new Padding(3, 2, 3, 2);
             tabPageUpdate.Name = "tabPageUpdate";
             tabPageUpdate.Padding = new Padding(3, 2, 3, 2);
-            tabPageUpdate.Size = new Size(786, 399);
+            tabPageUpdate.Size = new Size(799, 380);
             tabPageUpdate.TabIndex = 1;
             tabPageUpdate.Text = "Update Student";
             tabPageUpdate.UseVisualStyleBackColor = true;
@@ -387,10 +387,10 @@
             // labelUpdate
             // 
             labelUpdate.AutoSize = true;
-            labelUpdate.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            labelUpdate.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             labelUpdate.Location = new Point(5, 9);
             labelUpdate.Name = "labelUpdate";
-            labelUpdate.Size = new Size(96, 15);
+            labelUpdate.Size = new Size(130, 21);
             labelUpdate.TabIndex = 10;
             labelUpdate.Text = "Update Student";
             // 
