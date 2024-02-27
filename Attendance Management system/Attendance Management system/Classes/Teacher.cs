@@ -13,5 +13,9 @@
             Class = _class;
             Salary = salary;
         }
+
+        public Teacher()
+        {
+        }
     }
 }

@@ -10,8 +10,9 @@
 
 namespace Attendance_Management_system.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,7 +24,12 @@ namespace Attendance_Management_system.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        
+        internal static Image icons8_cross_50;
+        internal static Image icons8_minimize_48;
+        internal static Image icons8_important_32;
+        internal static Image icons8_blind_26;
+        internal static Image icons8_eye_26;
+        internal static Image icons8_account_100;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
