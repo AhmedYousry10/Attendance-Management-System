@@ -129,6 +129,7 @@ namespace AttendanceManagement.Attendance.Forms
 
         private void OpenDashboardForm(string username, string role)
         {
+            //not complited
             FormMain dashboard = new FormMain();
             dashboard.Username = username;
             dashboard.Role = role;
