@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Attendance_Management_system.;
+using Attendance_Management_system;
+using Attendance_Management_system.PAL;
+using Attendance_Management_System.Forms;
 namespace AttendanceManagement.Attendance.Forms
 {
     public partial class FormLogin : Form
@@ -88,7 +90,7 @@ namespace AttendanceManagement.Attendance.Forms
         {
             string filepath = "C:\\Users\\lap0\\OneDrive\\Desktop\\Main\\attendance-program2\\c#\\AttendanceManagement\\AttendanceManagement\\xml\\SystemData.xml";
 
-            List<User> allUsers = LoadUsersFromXml(filepath);
+            List<Person> allUsers = LoadUsersFromXml(filepath);
 
             string email = textBoxName.Text.Trim();
             string password = textBoxPassword.Text.Trim();
@@ -120,9 +122,14 @@ namespace AttendanceManagement.Attendance.Forms
             ShowError();
         }
 
+        private List<User> LoadUsersFromXml(string filepath)
+        {
+            throw new NotImplementedException();
+        }
+
         private void OpenDashboardForm(string username, string role)
         {
-            FormDashborad dashboard = new FormDashborad();
+            FormMain dashboard = new FormMain();
             dashboard.Username = username;
             dashboard.Role = role;
             dashboard.ShowDialog();
@@ -130,8 +137,8 @@ namespace AttendanceManagement.Attendance.Forms
 
         private void OpenTeacherDashboardForm(string username, string role)
         {
-            TeacherDashborad teacherDashboard = new TeacherDashborad();
-            teacherDashboard.Username = username;
+            Teacher teacherDashboard = new Teacher();
+            teacherDashboard.name = username;
             teacherDashboard.Role = role;
             teacherDashboard.ShowDialog();
         }

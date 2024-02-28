@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             pictureBoxClose = new PictureBox();
             pictureBoxMinimize = new PictureBox();
             groupBox1 = new GroupBox();
@@ -61,7 +62,6 @@
             // 
             pictureBoxClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBoxClose.Cursor = Cursors.Hand;
-            pictureBoxClose.Image = Attendance_Management_system.Properties.Resources.icons8_cross_50;
             pictureBoxClose.Location = new Point(1157, 13);
             pictureBoxClose.Name = "pictureBoxClose";
             pictureBoxClose.Size = new Size(31, 34);
@@ -75,7 +75,6 @@
             // 
             pictureBoxMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBoxMinimize.Cursor = Cursors.Hand;
-            pictureBoxMinimize.Image = Attendance_Management_system.Properties.Resources.icons8_minimize_48;
             pictureBoxMinimize.Location = new Point(1120, 13);
             pictureBoxMinimize.Name = "pictureBoxMinimize";
             pictureBoxMinimize.Size = new Size(31, 34);
@@ -132,7 +131,6 @@
             // pictureBoxError
             // 
             pictureBoxError.Cursor = Cursors.Hand;
-            pictureBoxError.Image = Attendance_Management_system.Properties.Resources.icons8_important_32;
             pictureBoxError.Location = new Point(92, 240);
             pictureBoxError.Name = "pictureBoxError";
             pictureBoxError.Size = new Size(25, 27);
@@ -195,7 +193,6 @@
             // 
             pictureBoxHide.BorderStyle = BorderStyle.FixedSingle;
             pictureBoxHide.Cursor = Cursors.Hand;
-            pictureBoxHide.Image = Attendance_Management_system.Properties.Resources.icons8_blind_26;
             pictureBoxHide.Location = new Point(337, 185);
             pictureBoxHide.Name = "pictureBoxHide";
             pictureBoxHide.Size = new Size(25, 28);
@@ -209,7 +206,6 @@
             // 
             pictureBoxShow.BorderStyle = BorderStyle.FixedSingle;
             pictureBoxShow.Cursor = Cursors.Hand;
-            pictureBoxShow.Image = Attendance_Management_system.Properties.Resources.icons8_eye_26;
             pictureBoxShow.Location = new Point(337, 185);
             pictureBoxShow.Name = "pictureBoxShow";
             pictureBoxShow.Size = new Size(25, 28);
@@ -232,8 +228,8 @@
             // pictureBoxPicture
             // 
             pictureBoxPicture.Anchor = AnchorStyles.None;
-            pictureBoxPicture.Image = Attendance_Management_system.Properties.Resources.icons8_account_100;
-            pictureBoxPicture.Location = new Point(819, 177);
+            pictureBoxPicture.Image = (Image)resources.GetObject("pictureBoxPicture.Image");
+            pictureBoxPicture.Location = new Point(856, 206);
             pictureBoxPicture.Name = "pictureBoxPicture";
             pictureBoxPicture.Size = new Size(212, 237);
             pictureBoxPicture.SizeMode = PictureBoxSizeMode.Zoom;
@@ -272,9 +268,9 @@
             label5.ForeColor = Color.Black;
             label5.Location = new Point(234, 646);
             label5.Name = "label5";
-            label5.Size = new Size(235, 21);
+            label5.Size = new Size(271, 21);
             label5.TabIndex = 11;
-            label5.Text = "Copy Right@ sherif ebrahim";
+            label5.Text = "Copy Right@2024 sherif ebrahim";
             label5.Click += label5_Click;
             // 
             // FormLogin
