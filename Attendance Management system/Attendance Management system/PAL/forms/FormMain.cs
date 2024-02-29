@@ -21,7 +21,7 @@ namespace Attendance_Management_system
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-          /*  panelExpand.Hide();*/
+            /*  panelExpand.Hide();*/
             panelExpand.Visible = false;
             /*            labelUsername.Text = Username;
                         labelRole.Text = Role;
@@ -116,5 +116,9 @@ namespace Attendance_Management_system
             }
         }
 
+        private void FormMain_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

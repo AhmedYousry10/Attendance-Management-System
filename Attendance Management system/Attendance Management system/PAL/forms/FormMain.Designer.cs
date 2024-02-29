@@ -57,8 +57,6 @@
             labelUsername = new Label();
             label4 = new Label();
             timerDateAndTime = new System.Windows.Forms.Timer(components);
-            userControlDashboard1 = new PAL.User_Control.UserControlDashboard();
-            userControlAddClass1 = new Attendance_Management_System.Forms.UserControlAddClass();
             panel1.SuspendLayout();
             panel4.SuspendLayout();
             panel2.SuspendLayout();
@@ -205,7 +203,7 @@
             label2.ForeColor = Color.White;
             label2.Location = new Point(97, 125);
             label2.Name = "label2";
-            label2.Size = new Size(62, 19);
+            label2.Size = new Size(79, 23);
             label2.TabIndex = 2;
             label2.Text = "System";
             // 
@@ -215,7 +213,7 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(23, 106);
             label1.Name = "label1";
-            label1.Size = new Size(212, 19);
+            label1.Size = new Size(264, 23);
             label1.TabIndex = 1;
             label1.Text = "Attendance Management";
             // 
@@ -328,7 +326,7 @@
             labelTime.ForeColor = Color.FromArgb(67, 3, 125);
             labelTime.Location = new Point(24, 23);
             labelTime.Name = "labelTime";
-            labelTime.Size = new Size(28, 19);
+            labelTime.Size = new Size(35, 23);
             labelTime.TabIndex = 3;
             labelTime.Text = "{?}";
             // 
@@ -352,7 +350,7 @@
             labelRole.ForeColor = Color.White;
             labelRole.Location = new Point(154, 57);
             labelRole.Name = "labelRole";
-            labelRole.Size = new Size(28, 19);
+            labelRole.Size = new Size(35, 23);
             labelRole.TabIndex = 7;
             labelRole.Text = "{?}";
             // 
@@ -363,7 +361,7 @@
             label7.ForeColor = Color.White;
             label7.Location = new Point(50, 57);
             label7.Name = "label7";
-            label7.Size = new Size(46, 19);
+            label7.Size = new Size(59, 23);
             label7.TabIndex = 6;
             label7.Text = "Role:";
             // 
@@ -374,7 +372,7 @@
             labelUsername.ForeColor = Color.White;
             labelUsername.Location = new Point(154, 22);
             labelUsername.Name = "labelUsername";
-            labelUsername.Size = new Size(28, 19);
+            labelUsername.Size = new Size(35, 23);
             labelUsername.TabIndex = 5;
             labelUsername.Text = "{?}";
             // 
@@ -385,7 +383,7 @@
             label4.ForeColor = Color.White;
             label4.Location = new Point(50, 22);
             label4.Name = "label4";
-            label4.Size = new Size(87, 19);
+            label4.Size = new Size(110, 23);
             label4.TabIndex = 4;
             label4.Text = "Welcome:";
             // 
@@ -393,43 +391,21 @@
             // 
             timerDateAndTime.Tick += timerDateAndTime_Tick;
             // 
-            // userControlDashboard1
-            // 
-            userControlDashboard1.BackColor = Color.White;
-            userControlDashboard1.Dock = DockStyle.Fill;
-            userControlDashboard1.Font = new Font("Century Gothic", 9.75F);
-            userControlDashboard1.Location = new Point(0, 0);
-            userControlDashboard1.Margin = new Padding(4);
-            userControlDashboard1.Name = "userControlDashboard1";
-            userControlDashboard1.Size = new Size(1184, 681);
-            userControlDashboard1.TabIndex = 0;
-            // 
-            // userControlAddClass1
-            // 
-            userControlAddClass1.Dock = DockStyle.Fill;
-            userControlAddClass1.Location = new Point(258, 165);
-            userControlAddClass1.Margin = new Padding(4);
-            userControlAddClass1.Name = "userControlAddClass1";
-            userControlAddClass1.Size = new Size(926, 516);
-            userControlAddClass1.TabIndex = 0;
-            userControlAddClass1.Visible = false;
-            // 
             // FormMain
             // 
-            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleDimensions = new SizeF(12F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1184, 681);
-            Controls.Add(userControlAddClass1);
             Controls.Add(panelBack);
             Controls.Add(panel1);
-            Controls.Add(userControlDashboard1);
             Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             Margin = new Padding(4);
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Attendance Management System";
             WindowState = FormWindowState.Maximized;
+            Load += FormMain_Load_1;
             panel1.ResumeLayout(false);
             panel4.ResumeLayout(false);
             panel2.ResumeLayout(false);
