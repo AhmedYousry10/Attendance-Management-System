@@ -49,6 +49,7 @@ namespace Attendance_Management_system.forms
 
         private void buttonAttendance_Click(object sender, EventArgs e)
         {
+            userControlAttendance1.Visible = true;
 
         }
 

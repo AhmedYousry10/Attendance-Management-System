@@ -83,6 +83,7 @@
             tabPageMarkAttendance.TabIndex = 0;
             tabPageMarkAttendance.Text = "Mark Attendance";
             tabPageMarkAttendance.UseVisualStyleBackColor = true;
+            tabPageMarkAttendance.Leave += tabPageMarkAttendance_Leave;
             // 
             // dataGridViewMarkAttendance
             // 
@@ -99,6 +100,7 @@
             dataGridViewMarkAttendance.ScrollBars = ScrollBars.Vertical;
             dataGridViewMarkAttendance.Size = new Size(872, 318);
             dataGridViewMarkAttendance.TabIndex = 0;
+            dataGridViewMarkAttendance.CellContentClick += dataGridViewMarkAttendance_CellContentClick;
             // 
             // Column1
             // 
@@ -115,6 +117,7 @@
             // 
             // Column2
             // 
+            Column2.DataPropertyName = "Attendance_Status";
             Column2.HeaderText = "Status";
             Column2.MinimumWidth = 6;
             Column2.Name = "Column2";
@@ -138,6 +141,8 @@
             comboBoxClass.Name = "comboBoxClass";
             comboBoxClass.Size = new Size(270, 29);
             comboBoxClass.TabIndex = 2;
+            comboBoxClass.SelectedIndexChanged += comboBoxClass_SelectedIndexChanged;
+            comboBoxClass.Click += comboBoxClass_Click;
             // 
             // label3
             // 

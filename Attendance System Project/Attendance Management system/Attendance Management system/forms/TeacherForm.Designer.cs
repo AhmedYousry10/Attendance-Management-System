@@ -51,6 +51,7 @@
             labelUsername = new Label();
             label4 = new Label();
             timerDateAndTime = new System.Windows.Forms.Timer(components);
+            userControlAttendance1 = new UserControlAttendance();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
@@ -184,7 +185,7 @@
             buttonMinimize.FlatStyle = FlatStyle.Flat;
             buttonMinimize.Font = new Font("Century Gothic", 9F);
             buttonMinimize.ForeColor = Color.FromArgb(67, 3, 125);
-            buttonMinimize.Image = Properties.Resources.icons8_minimize_25;
+            buttonMinimize.Image = (Image)resources.GetObject("buttonMinimize.Image");
             buttonMinimize.Location = new Point(0, 5);
             buttonMinimize.Name = "buttonMinimize";
             buttonMinimize.Size = new Size(198, 48);
@@ -203,7 +204,7 @@
             buttonLogOut.FlatStyle = FlatStyle.Flat;
             buttonLogOut.Font = new Font("Century Gothic", 9F, FontStyle.Bold);
             buttonLogOut.ForeColor = Color.FromArgb(67, 3, 125);
-            buttonLogOut.Image = Properties.Resources.icons8_external_30;
+            buttonLogOut.Image = (Image)resources.GetObject("buttonLogOut.Image");
             buttonLogOut.Location = new Point(0, 57);
             buttonLogOut.Name = "buttonLogOut";
             buttonLogOut.Size = new Size(198, 48);
@@ -317,12 +318,22 @@
             // 
             timerDateAndTime.Tick += timerDateAndTime_Tick;
             // 
+            // userControlAttendance1
+            // 
+            userControlAttendance1.Dock = DockStyle.Fill;
+            userControlAttendance1.Font = new Font("Century Gothic", 9.75F);
+            userControlAttendance1.Location = new Point(285, 165);
+            userControlAttendance1.Name = "userControlAttendance1";
+            userControlAttendance1.Size = new Size(899, 516);
+            userControlAttendance1.TabIndex = 0;
+            // 
             // TeacherForm
             // 
             AutoScaleDimensions = new SizeF(12F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1184, 681);
+            Controls.Add(userControlAttendance1);
             Controls.Add(panelback);
             Controls.Add(panel1);
             Font = new Font("Century Gothic", 12F, FontStyle.Bold);
@@ -367,5 +378,7 @@
         private Button buttonLogOut;
         private Button buttonMinimize;
         private System.Windows.Forms.Timer timerDateAndTime;
+        private UserControlAttendance UserControlAttendance;
+        private UserControlAttendance userControlAttendance1;
     }
 }

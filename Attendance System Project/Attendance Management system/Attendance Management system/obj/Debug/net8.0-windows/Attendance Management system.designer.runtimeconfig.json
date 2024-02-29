@@ -13,7 +13,7 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\HP\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\midom\\.nuget\\packages"
+      "C:\\Users\\HP\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

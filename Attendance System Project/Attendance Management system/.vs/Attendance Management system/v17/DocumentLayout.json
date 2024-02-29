@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|d:\\iti tasks\\c#\u0026xml project\\attendance-management-system\\attendance system project\\attendance management system\\attendance management system\\forms\\usercontrolattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\forms\\usercontrolattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\attendance management system\\forms\\usercontrolattendance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\forms\\usercontrolattendance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +11,16 @@
       "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\forms\\usercontrolattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\attendance management system\\forms\\teacherform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\forms\\teacherform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\attendance management system\\forms\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\forms\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\attendance management system\\forms\\usercontrolattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\forms\\usercontrolattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\attendance management system\\forms\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\forms\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\attendance management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\attendance management system\\forms\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DCBB3D-7F64-4276-86E5-17C8A4E81CF7}|Attendance Management system\\Attendance Management system.csproj|solutionrelative:attendance management system\\forms\\teacherform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,60 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserControlAttendance.cs [Design]",
-              "DocumentMoniker": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\UserControlAttendance.cs",
-              "RelativeDocumentMoniker": "Attendance Management system\\forms\\UserControlAttendance.cs",
-              "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\UserControlAttendance.cs [Design]",
-              "RelativeToolTip": "Attendance Management system\\forms\\UserControlAttendance.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T13:12:14.8Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UserControlAttendance.Designer.cs",
               "DocumentMoniker": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\UserControlAttendance.Designer.cs",
               "RelativeDocumentMoniker": "Attendance Management system\\forms\\UserControlAttendance.Designer.cs",
               "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\UserControlAttendance.Designer.cs",
               "RelativeToolTip": "Attendance Management system\\forms\\UserControlAttendance.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAUwGoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T13:11:24.396Z",
+              "WhenOpened": "2024-02-29T15:16:28.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "TeacherForm.cs [Design]",
+              "DocumentMoniker": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\TeacherForm.cs",
+              "RelativeDocumentMoniker": "Attendance Management system\\forms\\TeacherForm.cs",
+              "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\TeacherForm.cs [Design]",
+              "RelativeToolTip": "Attendance Management system\\forms\\TeacherForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T14:51:31.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserControlAttendance.cs",
               "DocumentMoniker": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\UserControlAttendance.cs",
               "RelativeDocumentMoniker": "Attendance Management system\\forms\\UserControlAttendance.cs",
               "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\UserControlAttendance.cs",
               "RelativeToolTip": "Attendance Management system\\forms\\UserControlAttendance.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAHAAAA",
+              "ViewState": "AQIAALwAAAAAAAAAAAAqwMAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T13:04:03.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TeacherForm.Designer.cs",
-              "DocumentMoniker": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\TeacherForm.Designer.cs",
-              "RelativeDocumentMoniker": "Attendance Management system\\forms\\TeacherForm.Designer.cs",
-              "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\TeacherForm.Designer.cs",
-              "RelativeToolTip": "Attendance Management system\\forms\\TeacherForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T16:58:36.623Z"
             },
             {
               "$type": "Document",
@@ -101,32 +76,20 @@
               "RelativeDocumentMoniker": "Attendance Management system\\forms\\TeacherForm.cs",
               "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\TeacherForm.cs",
               "RelativeToolTip": "Attendance Management system\\forms\\TeacherForm.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBYAAAAMAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvzQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T17:07:15.978Z"
+              "WhenOpened": "2024-02-28T19:39:08.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TeacherForm.cs [Design]",
-              "DocumentMoniker": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\TeacherForm.cs",
-              "RelativeDocumentMoniker": "Attendance Management system\\forms\\TeacherForm.cs",
-              "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\TeacherForm.cs [Design]",
-              "RelativeToolTip": "Attendance Management system\\forms\\TeacherForm.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "UserControlAttendance.cs [Design]",
+              "DocumentMoniker": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\UserControlAttendance.cs",
+              "RelativeDocumentMoniker": "Attendance Management system\\forms\\UserControlAttendance.cs",
+              "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\forms\\UserControlAttendance.cs [Design]",
+              "RelativeToolTip": "Attendance Management system\\forms\\UserControlAttendance.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T16:56:46.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\Program.cs",
-              "RelativeDocumentMoniker": "Attendance Management system\\Program.cs",
-              "ToolTip": "D:\\ITI Tasks\\C#\u0026xml project\\Attendance-Management-System\\Attendance System Project\\Attendance Management system\\Attendance Management system\\Program.cs",
-              "RelativeToolTip": "Attendance Management system\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T18:58:49.802Z"
+              "WhenOpened": "2024-02-23T13:12:14.8Z"
             }
           ]
         }
