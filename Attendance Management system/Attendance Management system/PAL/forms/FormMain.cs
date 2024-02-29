@@ -60,7 +60,7 @@ namespace Attendance_Management_system
             panelSlide.Location = new Point(button.Location.X - button.Location.X, button.Location.Y - 180);
         }
 
-        private void buttonDashboard_Click(object sender, EventArgs e)
+        /*private void buttonDashboard_Click(object sender, EventArgs e)
         {
             MoveSidePanel(buttonDashboard);
             userControlAddStudent1.Visible = false;
@@ -68,7 +68,7 @@ namespace Attendance_Management_system
             userControlAddClass1.Visible = false;
             userControlDashboard1.Count();
             userControlDashboard1.Visible = true;
-        }
+        }*/
 
         /*private void buttonAttendance_Click(object sender, EventArgs e)
           {
@@ -83,7 +83,7 @@ namespace Attendance_Management_system
             userControlAddStudent1.Visible = false;
             userControlAddTeacher1.Visible = false;
             userControlAddClass1.Visible = true;
-            userControlDashboard1.Visible = false;
+            /*userControlDashboard1.Visible = false*/
         }
 
         private void buttonAddStudent_Click(object sender, EventArgs e)
@@ -92,7 +92,7 @@ namespace Attendance_Management_system
             userControlAddStudent1.Visible = true;
             userControlAddTeacher1.Visible = false;
             userControlAddClass1.Visible = false;
-            userControlDashboard1.Visible = false;
+            /*userControlDashboard1.Visible = false;*/
         }
         private void buttonAddTeacher_Click(object sender, EventArgs e)
         {
@@ -100,7 +100,7 @@ namespace Attendance_Management_system
             userControlAddStudent1.Visible = false;
             userControlAddTeacher1.Visible = true;
             userControlAddClass1.Visible = false;
-            userControlDashboard1.Visible = false;
+            /*userControlDashboard1.Visible = false;*/
         }
 
         private void buttonReport_Click(object sender, EventArgs e)
@@ -109,7 +109,7 @@ namespace Attendance_Management_system
             userControlAddStudent1.Visible = false;
             userControlAddTeacher1.Visible = false;
             userControlAddClass1.Visible = false;
-            userControlDashboard1.Visible = false;
+            /*userControlDashboard1.Visible = false;*/
         }
 
 

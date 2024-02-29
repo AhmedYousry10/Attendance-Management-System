@@ -35,7 +35,6 @@
             buttonAddTeacher = new Button();
             buttonAddStudent = new Button();
             buttonAddClass = new Button();
-            buttonDashboard = new Button();
             panel4 = new Panel();
             panelSlide = new Panel();
             panel2 = new Panel();
@@ -56,7 +55,6 @@
             labelUsername = new Label();
             label4 = new Label();
             timerDateAndTime = new System.Windows.Forms.Timer(components);
-            userControlDashboard1 = new PAL.User_Control.UserControlDashboard();
             userControlAddClass1 = new Attendance_Management_System.Forms.UserControlAddClass();
             userControlAddClass2 = new Attendance_Management_System.Forms.UserControlAddClass();
             userControlAddStudent1 = new Attendance_Management_System.Forms.UserControlAddStudent();
@@ -79,7 +77,6 @@
             panel1.Controls.Add(buttonAddTeacher);
             panel1.Controls.Add(buttonAddStudent);
             panel1.Controls.Add(buttonAddClass);
-            panel1.Controls.Add(buttonDashboard);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(panel2);
             panel1.Dock = DockStyle.Left;
@@ -94,7 +91,7 @@
             buttonReport.FlatAppearance.BorderSize = 0;
             buttonReport.FlatStyle = FlatStyle.Flat;
             buttonReport.ForeColor = Color.White;
-            buttonReport.Location = new Point(8, 368);
+            buttonReport.Location = new Point(8, 321);
             buttonReport.Name = "buttonReport";
             buttonReport.Size = new Size(250, 47);
             buttonReport.TabIndex = 0;
@@ -108,7 +105,7 @@
             buttonAddTeacher.FlatAppearance.BorderSize = 0;
             buttonAddTeacher.FlatStyle = FlatStyle.Flat;
             buttonAddTeacher.ForeColor = Color.White;
-            buttonAddTeacher.Location = new Point(8, 321);
+            buttonAddTeacher.Location = new Point(8, 274);
             buttonAddTeacher.Name = "buttonAddTeacher";
             buttonAddTeacher.Size = new Size(250, 47);
             buttonAddTeacher.TabIndex = 0;
@@ -122,7 +119,7 @@
             buttonAddStudent.FlatAppearance.BorderSize = 0;
             buttonAddStudent.FlatStyle = FlatStyle.Flat;
             buttonAddStudent.ForeColor = Color.White;
-            buttonAddStudent.Location = new Point(8, 274);
+            buttonAddStudent.Location = new Point(8, 227);
             buttonAddStudent.Name = "buttonAddStudent";
             buttonAddStudent.Size = new Size(250, 47);
             buttonAddStudent.TabIndex = 0;
@@ -136,27 +133,13 @@
             buttonAddClass.FlatAppearance.BorderSize = 0;
             buttonAddClass.FlatStyle = FlatStyle.Flat;
             buttonAddClass.ForeColor = Color.White;
-            buttonAddClass.Location = new Point(8, 227);
+            buttonAddClass.Location = new Point(8, 180);
             buttonAddClass.Name = "buttonAddClass";
             buttonAddClass.Size = new Size(250, 47);
             buttonAddClass.TabIndex = 0;
             buttonAddClass.Text = "Add Class";
             buttonAddClass.UseVisualStyleBackColor = true;
             buttonAddClass.Click += buttonAddClass_Click;
-            // 
-            // buttonDashboard
-            // 
-            buttonDashboard.Dock = DockStyle.Top;
-            buttonDashboard.FlatAppearance.BorderSize = 0;
-            buttonDashboard.FlatStyle = FlatStyle.Flat;
-            buttonDashboard.ForeColor = Color.White;
-            buttonDashboard.Location = new Point(8, 180);
-            buttonDashboard.Name = "buttonDashboard";
-            buttonDashboard.Size = new Size(250, 47);
-            buttonDashboard.TabIndex = 0;
-            buttonDashboard.Text = "Dashboard";
-            buttonDashboard.UseVisualStyleBackColor = true;
-            buttonDashboard.Click += buttonDashboard_Click;
             // 
             // panel4
             // 
@@ -381,16 +364,6 @@
             // 
             timerDateAndTime.Tick += timerDateAndTime_Tick;
             // 
-            // userControlDashboard1
-            // 
-            userControlDashboard1.BackColor = Color.White;
-            userControlDashboard1.Font = new Font("Century Gothic", 9.75F);
-            userControlDashboard1.Location = new Point(254, 161);
-            userControlDashboard1.Margin = new Padding(4);
-            userControlDashboard1.Name = "userControlDashboard1";
-            userControlDashboard1.Size = new Size(930, 520);
-            userControlDashboard1.TabIndex = 0;
-            // 
             // userControlAddClass1
             // 
             userControlAddClass1.Location = new Point(262, 169);
@@ -437,11 +410,10 @@
             ClientSize = new Size(1184, 681);
             Controls.Add(panelBack);
             Controls.Add(panel1);
-            Controls.Add(userControlAddTeacher1);
             Controls.Add(userControlAddClass2);
             Controls.Add(userControlAddClass1);
-            Controls.Add(userControlDashboard1);
             Controls.Add(userControlAddStudent1);
+            Controls.Add(userControlAddTeacher1);
             Font = new Font("Century Gothic", 12F, FontStyle.Bold);
             Margin = new Padding(4);
             Name = "FormMain";
@@ -487,14 +459,12 @@
         private Panel panelSlide;
         private Button buttonAddStudent;
         private Button buttonAddClass;
-        private Button buttonDashboard;
         private Button buttonReport;
         private Button buttonAddTeacher;
         private System.Windows.Forms.Timer timerDateAndTime;
         private Attendance_Management_System.Forms.UserControlAddClass userControlAddClass1;
         private Attendance_Management_System.Forms.UserControlAddStudent userControlAddStudent1;
         private Attendance_Management_System.Forms.UserControlAddTeacher userControlAddTeacher1;
-        private PAL.User_Control.UserControlDashboard userControlDashboard1;
         private Attendance_Management_System.Forms.UserControlAddClass userControlAddClass2;
     }
 }
