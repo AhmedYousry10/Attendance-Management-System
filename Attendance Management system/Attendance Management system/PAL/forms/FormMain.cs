@@ -47,7 +47,7 @@ namespace Attendance_Management_system
             labelTime.Text = now.ToString("F");
         }
 
-        public FormMain()
+        public FormMain(string username)
         {
             InitializeComponent();
             timerDateAndTime.Start();
